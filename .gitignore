@@ -64,3 +64,4 @@ public/
 
 # Nuxt.js build output
 .nuxt/
+node_modules
