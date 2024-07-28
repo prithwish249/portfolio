@@ -1,11 +1,12 @@
 export const projects = [
   {
-    title: "Calculator",
-    subtitle: "A basis JavaScript project",
+    title: "Agritech-Insight",
+    subtitle:
+      "It is project where whole  MERN stack,pyton based api making, ML((algo like CNN and Random forest)) is used",
     description:
-      "A calculator made with Html,Css &JavaScript.",
-    image: "./calculator.jpg",
-    link: "https://github.com/prithwish249/calculator",
+      "Develop a agriculture related web application, with MERN stack and ML.",
+    image: "./agritech.jpeg",
+    link: "https://github.com/prithwish249/Agritech_insight",
   },
   {
     title: "TO-DO list-extensions",
@@ -31,47 +32,57 @@ export const projects = [
     image: "./data.jpeg",
     link: "https://github.com/prithwish249/super-store-data-analysis",
   },
+
+  {
+    title: "Diabetes prediction",
+    subtitle: " Using ML Diabetes prediction",
+    description: "Using python based ML Diabetes prediction",
+    image: "./diabetes.jpeg",
+    link: "https://github.com/prithwish249/Diabetes_detection",
+  },
+  {
+    title: " Docx Viewer",
+    subtitle: "https://docx-viewer.vercel.app/",
+    description:
+      "used for easily view ,rotate,zooming and download the docx file",
+    image: "./docx.png",
+    link: "https://github.com/prithwish249/Docx_viewer",
+  },
 ];
 
-
-
 export const skills = [
-  "OOPs",
-  "Java",
-  "Python",
-  "C",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Node.js",
-  "MongoDB",
+  "Programming Language :  Java (OOPs), Python, c",
+  "Web Development: Twailwind CSS, JS , MERN (MongoDB,Express.js,React,Node.js)",
+  "Machine Learning",
+  "Database: SQL,MongoDB",
   "Git",
   "Data structure and Algorithms",
 ];
 export const certificates = [
   {
     id: 1,
-    name:"Java",
-    image: "./java.png", 
+    name: "Havard CS-50",
+    image: "./cs50.png",
+    link: "https://cs50.harvard.edu/certificates/892ae6dc-535c-421c-99fd-e877a8feea1b", // Replace with actual certificate link
+  },
+
+  {
+    id: 2,
+    name: "Java",
+    image: "./java.png",
     link: "https://www.udemy.com/certificate/UC-f360d89f-2441-4462-8e61-7b222b6bcecf/", // Replace with actual certificate link
   },
   {
-    id: 2,
-    name:" HTML, JavaScript, & Bootstrap - Certification Course",
-    image: "./img1.jpeg", 
-    link: "https://www.udemy.com/certificate/UC-0ca080a7-4ca3-44dd-9910-37dbfc0f6bc5/", // Replace with actual certificate link
+    id: 3,
+    name: " HTML,CSS , & JavaScript - Certification Course (IBM)",
+    image: "./img1.jpeg",
+    link: "https://coursera.org/verif y/LU36XZFPEUB4", // Replace with actual certificate link
   },
+
   {
-    id: 2,
-    name:" JavaScript",
-    image: "./js.png", 
-    link: "https://www.udemy.com/certificate/UC-138cd9de-4150-4350-83df-6b4e345b2f33/", // Replace with actual certificate link
-  },
-  {
-    id: 2,
-    name:" Industrial training of 'MERN-STACK'",
-    image: "./images.jpeg", 
+    id: 4,
+    name: " Industrial training of 'MERN-STACK'",
+    image: "./images.jpeg",
     link: "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:94e47e01-5e61-3823-8d6f-8b366abe5a2f", // Replace with actual certificate link
   },
 ];
