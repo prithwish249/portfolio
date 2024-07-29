@@ -15,7 +15,7 @@ export default function About() {
           <span className="text-mono text-base">
             Full Stack developer | Freelancer | ML enthusiast
           </span>
-          <h2 className="title-font sm:text-3xl text-4xl mb-4 font-medium text-blue-400">
+          <h2 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-blue-400">
             Love to Learn new technologies.
           </h2>
           <p className="font-mono mb-8 leading-relaxed text-white">
@@ -51,7 +51,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-md  md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded-2xl"
             alt="hero"
